@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class Rocket : MonoBehaviour
 {
-    [SerializeField] float mainThrust = 60f;
-    [SerializeField] float rcsThrust = 100f;
+    [SerializeField] float mainThrust = 40f;
+    [SerializeField] float rcsThrust = 120f;
 
     Rigidbody rigidBody;
     AudioSource audioSource;
